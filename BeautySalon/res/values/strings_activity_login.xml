@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="title_activity_login">登录</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">请输入注册邮箱</string>
+    <string name="prompt_password">请输入密码</string>
+    <string name="action_sign_in_register">登录</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="menu_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">正在登录....</string>
+    <string name="error_invalid_email">邮箱格式不合法</string>
+    <string name="error_login_fail">登录失败</string>
+    <string name="error_field_required">此项不能为空</string>
+
+</resources>

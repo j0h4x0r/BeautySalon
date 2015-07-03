@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.beautysalon"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="16" />
+
+    <uses-permission 
+        android:name="android.permission.INTERNET" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.beautysalon.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.beautysalon.FaceActivity"
+            android:label="@string/title_activity_face" >
+        </activity>
+        <activity
+            android:name="org.beautysalon.HairActivity"
+            android:label="@string/title_activity_hair" >
+        </activity>
+        <activity
+            android:name="org.beautysalon.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="org.beautysalon.FaceDetailActivity"
+            android:label="@string/title_activity_face_detail" >
+        </activity>
+        <activity
+            android:name="org.beautysalon.HairDetailActivity"
+            android:label="@string/title_activity_hair_detail" >
+        </activity>
+        <activity
+            android:name="org.beautysalon.ProfileActivity"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name="org.beautysalon.ConsumeRecordActivity"
+            android:label="@string/title_activity_consume_record" >
+        </activity>
+    </application>
+
+</manifest>

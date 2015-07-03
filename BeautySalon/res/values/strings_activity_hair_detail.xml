@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="price_text">价格</string>
+    <string name="rate_text">评分</string>
+    <string name="rate_success_text">评分成功!</string>
+    
+</resources>

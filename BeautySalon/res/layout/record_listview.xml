@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView   
+    android:text="time"   
+    android:layout_height="wrap_content"   
+    android:textSize="20dip"   
+    android:layout_width="fill_parent"   
+    android:id="@+id/record_time"  
+    />  
+    
+    <TextView   
+    android:text="service_staff"   
+    android:layout_height="wrap_content"   
+    android:layout_width="fill_parent"   
+    android:layout_toRightOf="@+id/record_time"   
+    android:id="@+id/record_service_staff"  
+    />  
+    
+	<TextView   
+    android:text="price"   
+    android:layout_height="wrap_content"   
+    android:layout_width="fill_parent"   
+    android:layout_below="@+id/record_time"   
+    android:id="@+id/record_price"  
+    />  
+    
+	<TextView   
+    android:text="sevice_info"   
+    android:layout_height="wrap_content"   
+    android:layout_width="fill_parent"   
+    android:layout_below="@+id/record_price"   
+    android:id="@+id/record_sevice_info"  
+    />  
+
+</LinearLayout>
